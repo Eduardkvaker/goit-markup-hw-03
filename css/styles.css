@@ -17,13 +17,21 @@ body{
 /*колір button active #188CE8, #ffffff*/
 /*колір логотипа Web #2196F3, Studio #000*/
 .container {
+    outline: 1px solid red;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+.header-container {
+    display: flex;
+    vertical-align: middle;
+    
+    
 .logo  {
+    display: inline-block;
+margin-right: 93px;
 color: #2196F3;
 font-family: Raleway;
     font-size: 26px;
@@ -39,7 +47,9 @@ font-family: Raleway;
     color: #ffffff;
 }
 .nav {
+    display: flex;
     list-style-type: none;
+    outline: 1px solid blue;
 }
 .nav .nav-link.current {
 color: #2196F3;
@@ -52,6 +62,7 @@ color: #2196F3;
     line-height: 1.2;
     letter-spacing: 0.28px;
     text-decoration: none;
+    margin-right: 50px;
    
 }
 .nav-link:hover,
@@ -65,17 +76,11 @@ color: #2196F3;
 }
 .list {
     list-style-type: none;
+    margin-left: auto;
+    outline: 1px solid blueviolet;
+    display: flex;
 }
-.address {
-color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.42px;
-    text-decoration: none;
-}
+
 .mail,
 .phone {
 color: #757575;
@@ -86,6 +91,7 @@ color: #757575;
     line-height: 1.2;
     letter-spacing: 0.28px;
     text-decoration: none;
+    margin-right: 40px;
 }
 .mail:hover,
 .mail:focus,
@@ -187,6 +193,19 @@ background-color: #F5F4FA;
 }
 .footer {
 background: #2F303A;
+}
+.footer-container {
+display: flex;
+}
+.address {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    text-decoration: none;
 }
 .footer .mail, 
 .footer .phone {
