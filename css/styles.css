@@ -203,13 +203,15 @@ display: flex;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 1.08px;
-    margin-top: 0;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    margin: 0;
+    padding-bottom: 50px;
 }
 .list {
     text-decoration: none;
     list-style-type: none;
     padding: 0;
+    margin-bottom: auto;
 }
 .picture {
     text-decoration: none;
@@ -217,6 +219,9 @@ display: flex;
 }
 .our-team {
     background-color: #F5F4FA;
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .desc {
     color: #757575;
