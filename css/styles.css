@@ -203,13 +203,17 @@ display: flex;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 1.08px;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .list {
     text-decoration: none;
     list-style-type: none;
+    padding: 0;
 }
 .picture {
     text-decoration: none;
+    margin-right: 30px;
 }
 .our-team {
     background-color: #F5F4FA;
