@@ -213,6 +213,19 @@ display: flex;
     padding: 0;
     margin-bottom: auto;
 }
+.part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 30px;
+    background-color: #FFF;
+}
+.four{
+    margin-right: 0;
+}
 .picture {
     text-decoration: none;
     margin-right: 30px;
