@@ -292,6 +292,9 @@ display: flex;
     list-style-type: none;
     align-items: center;
     justify-content: center;
+    padding-top: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 .button-filter-all {
@@ -339,6 +342,10 @@ display: flex;
     flex-wrap: wrap;
     text-decoration: none;
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 34px;
+    padding-bottom: 94px;
 }
 .heading {
     color: var(--title-text-color);
