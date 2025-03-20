@@ -332,6 +332,10 @@ display: flex;
     background: #2196F3;
     color: #FFF;
 }
+.ad-container{
+outline: 1px solid blueviolet;
+padding: 0;
+}
 
 .link {
     text-decoration: none;
@@ -346,6 +350,16 @@ display: flex;
     margin-bottom: 0;
     padding-top: 34px;
     padding-bottom: 94px;
+    padding-left: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+.picture{
+    outline: 1px solid blue;
+    display: flex;
+}
+.right-picture{
+    margin: 0;
 }
 .heading {
     color: var(--title-text-color);
